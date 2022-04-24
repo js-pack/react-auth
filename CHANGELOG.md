@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/js-pack/react-auth/compare/v1.0.0...v1.0.1) (2022-04-24)
+
+
+### Bug Fixes
+
+* Update default value of condition prop ([8c69558](https://github.com/js-pack/react-auth/commit/8c69558af37116e14db37300872db0a42fd4a9f6))
+
 # 1.0.0 (2022-04-22)
 
 
