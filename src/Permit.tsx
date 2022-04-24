@@ -58,7 +58,7 @@ const Permit = ({
 };
 
 Permit.defaultProps = {
-  condition: () => {},
+  condition: () => true,
   oneOf: [],
   has: [],
 };
