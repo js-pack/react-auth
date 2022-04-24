@@ -43,7 +43,7 @@ const AuthProvider = ({
   children,
   anonymousRoutes,
   enableRedirectToLogin = false,
-  redirectToLoginPath = '',
+  redirectToLoginPath = '/login',
   permissionParser = defaultPermissionsParser,
   userExtender = defaultUserExtender,
   tokenReFetcher = defaultTokenReFetcher,
