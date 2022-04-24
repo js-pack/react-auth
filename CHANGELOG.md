@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/js-pack/react-auth/compare/v1.0.1...v1.0.2) (2022-04-24)
+
+
+### Bug Fixes
+
+* Update default value of login path ([fc14355](https://github.com/js-pack/react-auth/commit/fc1435562edf96fcd2ec73913558bf4cebbd6c28))
+
 ## [1.0.1](https://github.com/js-pack/react-auth/compare/v1.0.0...v1.0.1) (2022-04-24)
 
 
