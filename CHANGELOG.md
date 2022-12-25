@@ -1,3 +1,10 @@
+## [1.0.3](https://github.com/js-pack/react-auth/compare/v1.0.2...v1.0.3) (2022-12-25)
+
+
+### Bug Fixes
+
+* Update env variable conditions ([e70ad59](https://github.com/js-pack/react-auth/commit/e70ad596a5dc83864e2870c55fec541455f89260))
+
 ## [1.0.2](https://github.com/js-pack/react-auth/compare/v1.0.1...v1.0.2) (2022-04-24)
 
 
