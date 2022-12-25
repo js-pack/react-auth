@@ -1,3 +1,10 @@
+## [1.0.4](https://github.com/js-pack/react-auth/compare/v1.0.3...v1.0.4) (2022-12-25)
+
+
+### Bug Fixes
+
+* Add fallback to process ([fd0fe86](https://github.com/js-pack/react-auth/commit/fd0fe8681550eb61c227fe985857ec2dadfa21ee))
+
 ## [1.0.3](https://github.com/js-pack/react-auth/compare/v1.0.2...v1.0.3) (2022-12-25)
 
 
