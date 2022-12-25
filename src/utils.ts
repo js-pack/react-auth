@@ -2,33 +2,32 @@ import jwtDecode from 'jwt-decode';
 import { TOKEN_KEY, REFRESH_TOKEN_KEY } from './constants';
 import { BaseUserType } from './types';
 
+const p: any = typeof process === 'undefined' ? {} : process;
+
 export const getToken = (): string =>
-  localStorage.getItem(
-    process?.env?.REACT_APP_REACT_AUTH_TOKEN_KEY || TOKEN_KEY
-  ) ?? '';
+  localStorage.getItem(p?.env?.REACT_APP_REACT_AUTH_TOKEN_KEY || TOKEN_KEY) ??
+  '';
 export const getRefreshToken = (): string =>
   localStorage.getItem(
-    process?.env?.REACT_APP_REACT_AUTH_TOKEN_KEY || REFRESH_TOKEN_KEY
+    p?.env?.REACT_APP_REACT_AUTH_TOKEN_KEY || REFRESH_TOKEN_KEY
   ) ?? '';
 const setToken = (token?: string) =>
   token &&
   localStorage.setItem(
-    process?.env?.REACT_APP_REACT_AUTH_TOKEN_KEY || TOKEN_KEY,
+    p?.env?.REACT_APP_REACT_AUTH_TOKEN_KEY || TOKEN_KEY,
     token
   );
 export const setRefreshToken = (refreshToken?: string) =>
   refreshToken &&
   localStorage.setItem(
-    process?.env?.REACT_APP_REACT_AUTH_TOKEN_KEY || REFRESH_TOKEN_KEY,
+    p?.env?.REACT_APP_REACT_AUTH_TOKEN_KEY || REFRESH_TOKEN_KEY,
     refreshToken
   );
 const removeToken = () =>
-  localStorage.removeItem(
-    process?.env?.REACT_APP_REACT_AUTH_TOKEN_KEY || TOKEN_KEY
-  );
+  localStorage.removeItem(p?.env?.REACT_APP_REACT_AUTH_TOKEN_KEY || TOKEN_KEY);
 const removeRefreshToken = () =>
   localStorage.removeItem(
-    process?.env?.REACT_APP_REACT_AUTH_TOKEN_KEY || REFRESH_TOKEN_KEY
+    p?.env?.REACT_APP_REACT_AUTH_TOKEN_KEY || REFRESH_TOKEN_KEY
   );
 
 export const isTokenExpired = (token: string) => {
