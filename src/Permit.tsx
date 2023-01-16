@@ -31,7 +31,7 @@ const Permit = ({
         isVisible
       );
       isVisible = (oneOf ?? []).reduce<boolean>(
-        (accm, value) => accm || !!oneOf?.includes(value),
+        (accm, value) => accm || !!userPermissions?.includes(value),
         !oneOf?.length && isVisible
       );
       return isVisible && condition?.();
