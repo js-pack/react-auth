@@ -1,6 +1,6 @@
 {
   "name": "@js-pack/react-auth",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "JWT-based authentication helpers & components",
   "main": "dist/cjs/index.js",
   "module": "dist/index.js",

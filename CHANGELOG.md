@@ -1,3 +1,10 @@
+## [1.0.5](https://github.com/js-pack/react-auth/compare/v1.0.4...v1.0.5) (2023-01-16)
+
+
+### Bug Fixes
+
+* Update oneOf condition ([e3b0bea](https://github.com/js-pack/react-auth/commit/e3b0bea520dbdec5d8dead6ff463eeab45411f0d))
+
 ## [1.0.4](https://github.com/js-pack/react-auth/compare/v1.0.3...v1.0.4) (2022-12-25)
 
 
